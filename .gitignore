@@ -1,0 +1,17 @@
+# === Папки сборки и компиляции (ИХ НЕ ПУШИМ!) ===
+[Bb]in/
+[Oo]bj/
+
+# === Временные файлы Visual Studio ===
+.vs/
+*.user
+*.userosscache
+*.suo
+*.suocache
+*.sln.docstates
+
+# === Локальные базы данных и кэш (если они создаются при работе) ===
+*.db
+*.sqlite
+history.txt
+Tournament_Results.txt

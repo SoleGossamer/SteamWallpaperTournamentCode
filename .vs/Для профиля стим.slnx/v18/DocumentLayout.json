@@ -1,22 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SoleGossamer\\source\\repos\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\",
+  "WorkspaceRootPath": "C:\\Users\\SoleGossamer\\Documents\\GitHub\\SteamWallpaperTournamentCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|c:\\users\\solegossamer\\source\\repos\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|c:\\users\\solegossamer\\documents\\github\\steamwallpapertournamentcode\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|solutionrelative:\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|c:\\users\\solegossamer\\documents\\github\\steamwallpapertournamentcode\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|solutionrelative:\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|c:\\users\\solegossamer\\source\\repos\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|c:\\users\\solegossamer\\documents\\github\\steamwallpapertournamentcode\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|solutionrelative:\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|c:\\users\\solegossamer\\source\\repos\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\wallpapers.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|solutionrelative:\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\wallpapers.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|c:\\users\\solegossamer\\source\\repos\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\filename.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BADD295A-61CC-5AB8-F324-232A62E90550}|\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj|solutionrelative:\u0434\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\filename.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,51 +29,54 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "wallpapers.txt",
-              "DocumentMoniker": "C:\\Users\\SoleGossamer\\source\\repos\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\wallpapers.txt",
-              "RelativeDocumentMoniker": "\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\wallpapers.txt",
-              "ToolTip": "C:\\Users\\SoleGossamer\\source\\repos\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\wallpapers.txt",
-              "RelativeToolTip": "\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\wallpapers.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-29T17:02:58.057Z"
+              "DocumentIndex": 1,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAPkUAAAAAAAAAAD4vxQVAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-06-17T10:18:52.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C",
+              "DocumentMoniker": "C:\\Users\\SoleGossamer\\Documents\\GitHub\\SteamWallpaperTournamentCode\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj",
+              "RelativeDocumentMoniker": "\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj",
+              "ToolTip": "C:\\Users\\SoleGossamer\\Documents\\GitHub\\SteamWallpaperTournamentCode\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj",
+              "RelativeToolTip": "\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-17T10:10:40.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\SoleGossamer\\source\\repos\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\SoleGossamer\\Documents\\GitHub\\SteamWallpaperTournamentCode\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\SoleGossamer\\source\\repos\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\SoleGossamer\\Documents\\GitHub\\SteamWallpaperTournamentCode\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml.cs",
               "RelativeToolTip": "\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAowC8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAjwDkAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-04T20:31:21.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\SoleGossamer\\source\\repos\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\SoleGossamer\\Documents\\GitHub\\SteamWallpaperTournamentCode\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml",
               "RelativeDocumentMoniker": "\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\SoleGossamer\\source\\repos\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\SoleGossamer\\Documents\\GitHub\\SteamWallpaperTournamentCode\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml",
               "RelativeToolTip": "\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-17T01:35:23.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FileName.txt",
-              "DocumentMoniker": "C:\\Users\\SoleGossamer\\source\\repos\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\FileName.txt",
-              "RelativeDocumentMoniker": "\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\FileName.txt",
-              "ToolTip": "C:\\Users\\SoleGossamer\\source\\repos\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\FileName.txt",
-              "RelativeToolTip": "\u0414\u043B\u044F \u043F\u0440\u043E\u0444\u0438\u043B\u044F \u0441\u0442\u0438\u043C\\FileName.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-01-04T20:32:27.163Z"
+              "WhenOpened": "2026-01-17T01:35:23.695Z",
+              "EditorCaption": ""
             }
           ]
         }

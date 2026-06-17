@@ -1,11 +1,12 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    "net10.0-windows7.0": {}
+    "net10.0-windows": {},
+    "net10.0-windows/win-x64": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net10.0-windows7.0": []
+    "net10.0-windows": []
   },
   "packageFolders": {
     "C:\\Users\\SoleGossamer\\.nuget\\packages\\": {},
@@ -14,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SoleGossamer\\source\\repos\\Для профиля стим\\Для профиля стим\\Для профиля стим.csproj",
+      "projectUniqueName": "C:\\Users\\SoleGossamer\\Documents\\GitHub\\SteamWallpaperTournamentCode\\Для профиля стим\\Для профиля стим.csproj",
       "projectName": "Для профиля стим",
-      "projectPath": "C:\\Users\\SoleGossamer\\source\\repos\\Для профиля стим\\Для профиля стим\\Для профиля стим.csproj",
+      "projectPath": "C:\\Users\\SoleGossamer\\Documents\\GitHub\\SteamWallpaperTournamentCode\\Для профиля стим\\Для профиля стим.csproj",
       "packagesPath": "C:\\Users\\SoleGossamer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SoleGossamer\\source\\repos\\Для профиля стим\\Для профиля стим\\obj\\",
+      "outputPath": "C:\\Users\\SoleGossamer\\Documents\\GitHub\\SteamWallpaperTournamentCode\\Для профиля стим\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -37,7 +38,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net10.0-windows7.0": {
+        "net10.0-windows": {
+          "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "projectReferences": {}
         }
@@ -52,10 +54,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
-      "net10.0-windows7.0": {
+      "net10.0-windows": {
+        "framework": "net10.0-windows7.0",
         "targetAlias": "net10.0-windows",
         "imports": [
           "net461",
@@ -68,6 +71,20 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+            "version": "[10.0.9, 10.0.9]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Runtime.win-x64",
+            "version": "[10.0.9, 10.0.9]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+            "version": "[10.0.9, 10.0.9]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -76,7 +93,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -367,6 +384,11 @@
           "System.Xml.XPath": "(,4.3.32767]",
           "System.Xml.XPath.XDocument": "(,5.0.32767]"
         }
+      }
+    },
+    "runtimes": {
+      "win-x64": {
+        "#import": []
       }
     }
   }
