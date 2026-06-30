@@ -43,7 +43,7 @@ namespace WallpaperRanker
 
             try
             {
-                // Запускаем процесс
+                // Запуск процесса
                 using (var process = System.Diagnostics.Process.Start("notepad.exe", path))
                 {
                     if (process != null)
@@ -52,7 +52,7 @@ namespace WallpaperRanker
                         // При этом интерфейс остается рабочим.
                         await process.WaitForExitAsync();
 
-                        // Как только блокнот закрыли — переинициализируем турнир
+                        // Как только блокнот закрывается — происходит переинициализация турнира
                         InitializeTournament();
 
                         MessageBox.Show("Список обновлен!", "Инфо");
@@ -108,7 +108,7 @@ namespace WallpaperRanker
                 history = new HashSet<string>(savedHistory);
             }
 
-            // После загрузки истории, считаем пары
+            // После загрузки истории, происходит подсчёт пар
             long n = allItems.Count;
             long maxPairs = n * (n - 1) / 2;
 
@@ -122,7 +122,7 @@ namespace WallpaperRanker
         // Метод генерации ключа
         private string GetPairKey(string url1, string url2)
         {
-            // Сортируем строки, чтобы (A, B) и (B, A) давали один ключ
+            // Сортировка строк, чтобы (A, B) и (B, A) давали один ключ
             return string.Compare(url1, url2) < 0 ? $"{url1}|{url2}" : $"{url2}|{url1}";
         }
         private void NextMatch()
@@ -132,7 +132,7 @@ namespace WallpaperRanker
 
             long maxPairs = (long)n * (n - 1) / 2;
 
-            // Очищаем историю от пар, где один из элементов был удален (на всякий случай)
+            // Очистка истории от пар, где один из элементов был удален (на всякий случай)
             // Это позволит счетчику пар всегда быть актуальным
 
             bool found = false;
@@ -151,7 +151,7 @@ namespace WallpaperRanker
                 attempts++;
             }
 
-            // Если рандом не нашел, идем перебором
+            // Если рандом не нашел, идет метод перебора
             if (!found)
             {
                 for (int i = 0; i < n; i++)
@@ -171,8 +171,8 @@ namespace WallpaperRanker
 
             if (found)
             {
-                // Инициализируем ссылки на плееры, если они еще не найдены
-                // (Находим их по x:Name внутри шаблона кнопок)
+                // Инициализация ссылок на плееры, если они еще не найдены
+                // (Нахождение их по x:Name внутри шаблона кнопок)
                 if (VideoLeft == null) VideoLeft = GetMediaFromButton(BtnLeftContainer, "VideoLeftInside");
                 if (VideoRight == null) VideoRight = GetMediaFromButton(BtnRightContainer, "VideoRightInside");
 
@@ -183,7 +183,7 @@ namespace WallpaperRanker
                     VideoLeft.Play();
                     VideoRight.Play();
                 }
-                // Обновляем статистику
+                // Обновление статистики
                 n = allItems.Count;
                 maxPairs = (long)n * (n - 1) / 2;
 
@@ -205,14 +205,14 @@ namespace WallpaperRanker
             {
                 string removedUrl = itemToRemove.Url;
 
-                // Удаляем сам элемент
+                // Удаление самого элемента из списка
                 allItems.Remove(itemToRemove);
 
-                // Удаляем из истории ВСЕ записи, содержащие этот URL
+                // Удаление из истории всех записей, содержащих этот URL
                 // Это восстановит количество доступных пар корректно
                 history.RemoveWhere(key => key.Contains(removedUrl));
 
-                // Сохраняем изменения в файлы
+                // Сохранение изменений в файлы
                 File.WriteAllLines("wallpapers.txt", allItems.Select(x => x.Url));
                 SaveData();
 
@@ -251,19 +251,19 @@ namespace WallpaperRanker
 
         private void SaveData()
         {
-            // Сохраняем баллы
+            // Сохранение баллов
             File.WriteAllLines(dbPath, allItems.Select(x => $"{x.Id}|{x.Score}"));
-            // Сохраняем историю
+            // Сохранение истории
             File.WriteAllLines(historyPath, history);
-            // Сохраняем читаемый ТОП
+            // Сохранение читаемого ТОП
             var top = allItems.OrderByDescending(x => x.Score).Select(x => $"{x.Score} б. - {x.Url}");
             File.WriteAllLines("Tournament_Results.txt", top);
         }
 
         private void Video_MediaEnded(object sender, RoutedEventArgs e)
         {
-            // Используем паттерн-матчинг: если sender это MediaElement, 
-            // то создаем переменную 'me' и выполняем код.
+            // Использование паттерн-матчинга: если sender это MediaElement, 
+            // то созда'тся' переменная 'me' и выполняется код.
             if (sender is MediaElement me)
             {
                 me.Position = TimeSpan.FromMilliseconds(1);
@@ -281,15 +281,15 @@ namespace WallpaperRanker
         {
             if (MessageBox.Show("Удалить весь прогресс?", "Сброс", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
             {
-                // 1. Удаляем файлы данных
+                // 1. Удаление файлов данных
                 if (File.Exists(dbPath)) File.Delete(dbPath);
                 if (File.Exists(historyPath)) File.Delete(historyPath);
 
-                // 2. Получаем путь к текущему процессу
+                // 2. Получение пути к текущему процессу
                 var currentProcess = System.Diagnostics.Process.GetCurrentProcess();
                 string exePath = currentProcess.MainModule?.FileName ?? AppDomain.CurrentDomain.BaseDirectory;
 
-                // 3. Запускаем новую копию и закрываем текущую
+                // 3. Запуск новой копии и закрытие текущей
                 System.Diagnostics.Process.Start(exePath);
                 Application.Current.Shutdown();
             }
